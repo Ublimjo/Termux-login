@@ -6,8 +6,13 @@ import hashlib
 import sys
 import os
 
+print("")
 password = getpass.getpass()
-if password != "Ul9085jo":
+print("")
+readpass = open("/data/data/com.termux/files/usr/share/login/pass", "r")
+readpass = str(readpass.readline())
+
+if password != "password":
     print("Invalide password")
     os.system("exit")
 else:
