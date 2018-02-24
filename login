@@ -24,4 +24,3 @@ exec $PREFIX/bin/login.py "$SHELL" -l "$@"
 
 #default execute
 #exec "$SHELL" -l "$@"
-
