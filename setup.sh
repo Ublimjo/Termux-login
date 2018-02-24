@@ -6,6 +6,7 @@ chmod 700 $PREFIX/bin/login.py
 cp login $PREFIX/bin/
 chmod 700 $PREFIX/bin/login
 mkdir /data/data/com.termux/files/usr/share/login/
+clear
 
 #TODO: hide input
 read -p "Enter new password: " passone;
