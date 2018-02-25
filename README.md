@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Login
 
 ## Description
@@ -14,7 +13,7 @@ if you have git and python installed you can skip line 2
 ```shell
 $ cd ~
 $ pkg install git python
-$ git clone <this repository>
+$ git clone https://github.com/Ublimjo/Termux-login.git
 $ cd login
 $ bash setup.sh
 ```
