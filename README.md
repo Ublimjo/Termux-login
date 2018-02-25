@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Login
 
 ## Description
@@ -16,12 +17,5 @@ $ pkg install git python
 $ git clone <this repository>
 $ cd login
 $ bash setup.sh
-```
-
-## Uninstall
-
-```shell
-$ cd ~/login
-$ bash uninstall.sh
 ```
 
