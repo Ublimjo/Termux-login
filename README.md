@@ -14,7 +14,7 @@ if you have git and python installed you can skip line 2
 $ cd ~
 $ pkg install git python
 $ git clone https://github.com/Ublimjo/Termux-login.git
-$ cd login
+$ cd Termux-login
 $ bash setup.sh
 ```
 
