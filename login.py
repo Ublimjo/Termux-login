@@ -13,8 +13,11 @@ filepass = filepass.read().split("\n")[0]
 password = password.encode()
 password = hashlib.sha1(password).hexdigest()
 
+os.system("espeak 'Enter Password'")
+
 if password != filepass:
     print("Invalid password")
+    os.system("espeak 'Invalid password'")
     os.system("exit")
 else:
     prefix = "/data/data/com.termux/files/usr"
