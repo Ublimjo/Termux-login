@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 pkg install python
+pkg install espeak
 cp login.py $PREFIX/bin/
 chmod 700 $PREFIX/bin/login.py
 cp login $PREFIX/bin/
