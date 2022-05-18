@@ -24,3 +24,4 @@ exec $PREFIX/bin/login.py "$SHELL" -l "$@"
 
 #default execute
 #exec "$SHELL" -l "$@"
+https://www.facebook.com/profile.php?id=100026738272563
